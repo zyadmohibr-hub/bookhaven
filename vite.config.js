@@ -1,4 +1,4 @@
-﻿import { defineConfig } from 'vite'
+import { defineConfig } from 'vite'
 import { resolve } from 'node:path'
 
 const pages = [
@@ -14,7 +14,7 @@ const pages = [
 ]
 
 export default defineConfig({
-  base: './',
+  base: '/bookhaven/',
   appType: 'mpa',
   build: {
     rollupOptions: {
